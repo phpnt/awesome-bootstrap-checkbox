@@ -1,0 +1,30 @@
+{
+    "name": "phpnt/awesome-bootstrap-checkbox",
+    "description": "Yii2 Awesome Bootstrap Checkbox",
+    "keywords": ["yii2", "phpnt", "awesome-bootstrap-checkbox", "awesome", "bootstrap", "checkbox", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/phpnt/awesome-bootstrap-checkbox"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "phpnt/font-awesome": "^0.0.1",
+        "bower-asset/awesome-bootstrap-checkbox": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\awesomeBootstrapCheckbox\\": ""
+        }
+    }
+}
